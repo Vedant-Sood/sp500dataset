@@ -1,5 +1,14 @@
 # sp500
 
+**Fork:** this repository derives from
+[fja05680/sp500](https://github.com/fja05680/sp500). Original code, historical
+notes and data provenance belong to the upstream project and its contributors.
+
+[Setup and usage guide](docs/USAGE.md): environment, notebook order, CSV schemas
+and snapshot queries. This is historical index-membership data, not a price feed.
+The first-person notes below are retained from the upstream README.
+
+
 ##### Current List of S&P 500 companies retrieved from the Wikipedia: `sp500.csv` 
 ##### Historical Lists of S&P 500 components since 1996: `S&P 500 Historical Components & Changes (Updated).csv`
 ##### Example code to retrieve a snapshot of the S&P 500 components on a certain date: `sp500_by_date.ipynb`
